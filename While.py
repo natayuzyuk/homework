@@ -5,8 +5,8 @@ def dosomething(A, B, C) :
         A = A + C
     print("Дождались! Финальный A : {0}".format(A))
 
-A=float(input("введите число A: "))
-B=float(input("введите число B: "))
-C=float(input("введите число C: "))
+A=float(input("Введите число A: "))
+B=float(input("Введите число B: "))
+C=float(input("Введите число C: "))
 
 dosomething(A, B, C)
